@@ -1,0 +1,134 @@
+.best_seller {
+
+    margin-top: 364px;
+
+}
+
+.best_seller ul {
+    list-style: none;
+}
+
+.best_seller ul li:nth-child(1) p {
+
+    font-family: Nuckle;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-darken);
+}
+
+.best_seller ul li .cards {
+
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    grid-template-rows: repeat(2, 390px);
+    grid-column-gap: 20px;
+    grid-row-gap: 21px;
+
+    margin-top: 20px;
+
+}
+
+.best_seller ul li .cards .card {
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.best_seller ul li .cards .card img {
+    border-radius: 10px;
+}
+
+.best_seller ul li .cards .card h2 {
+
+    font-family: Nuckle;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-primary-blue);
+
+
+}
+
+.best_seller ul li .cards .card small {
+    margin-top: 33px;
+
+    font-family: Nuckle;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-gray);
+
+}
+
+.best_seller ul li .cards .card .buy {
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+
+
+
+}
+
+.best_seller ul li .cards .card .buy button:nth-child(1) {
+    background-color: var(--bg-primary-blue);
+    width: 130px;
+    height: 40px;
+    border: none;
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+
+}
+
+.best_seller ul li .cards .card .buy button:nth-child(2) {
+    border: none;
+    background-color: white;
+
+}
+
+.best_seller ul li .cards .card .buy button:nth-child(2) i {
+    font-size: 25px;
+}
+
+.best_seller ul li:nth-child(2) p {
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-top: 6px;
+
+}
+
+.best_seller ul li:nth-child(3) button {
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+
+    font-family: Nuckle;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
