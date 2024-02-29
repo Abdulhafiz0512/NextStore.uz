@@ -1,0 +1,7 @@
+#for_rwd{
+    display: none;
+}
+@media only screen and (max-width:480px) {
+    #for_rwd{
+    display: block;}
+}
