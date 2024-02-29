@@ -1,10 +1,14 @@
+.most_famous {
 
+    margin-top: 60px;
 
-.best_seller ul {
+}
+
+.most_famous ul {
     list-style: none;
 }
 
-.best_seller ul li:nth-child(1) p {
+.most_famous ul li:nth-child(1) p {
 
     font-family: Nuckle;
     font-size: 28px;
@@ -15,10 +19,10 @@
     color: var(--bg-darken);
 }
 
-.best_seller ul li .cards {
+.most_famous ul li .cards {
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(230px,1fr) );
+    grid-template-columns: repeat(auto-fit, minmax(230px,1fr));
     grid-template-rows: repeat(2, 390px);
     grid-column-gap: 15px;
     grid-row-gap: 21px;
@@ -27,7 +31,7 @@
 
 }
 
-.best_seller ul li .cards .card {
+.most_famous ul li .cards .card {
     border-radius: 10px;
     background-color: white;
     display: flex;
@@ -37,11 +41,11 @@
     
 }
 
-.best_seller ul li .cards .card img {
+.most_famous ul li .cards .card img {
     border-radius: 10px;
 }
 
-.best_seller ul li .cards .card h2 {
+.most_famous ul li .cards .card h2 {
 
     font-family: Nuckle;
     font-size: 18px;
@@ -54,7 +58,7 @@
 
 }
 
-.best_seller ul li .cards .card small {
+.most_famous ul li .cards .card small {
     margin-top: 33px;
 
     font-family: Nuckle;
@@ -67,7 +71,7 @@
 
 }
 
-.best_seller ul li .cards .card .buy {
+.most_famous ul li .cards .card .buy {
     display: flex;
     gap: 20px;
     margin-top: 25px;
@@ -76,7 +80,7 @@
 
 }
 
-.best_seller ul li .cards .card .buy button:nth-child(1) {
+.most_famous ul li .cards .card .buy button:nth-child(1) {
     background-color: var(--bg-primary-blue);
     width: 130px;
     height: 40px;
@@ -90,17 +94,17 @@
 
 }
 
-.best_seller ul li .cards .card .buy button:nth-child(2) {
+.most_famous ul li .cards .card .buy button:nth-child(2) {
     border: none;
     background-color: white;
 
 }
 
-.best_seller ul li .cards .card .buy button:nth-child(2) i {
+.most_famous ul li .cards .card .buy button:nth-child(2) i {
     font-size: 25px;
 }
 
-.best_seller ul li:nth-child(2) p {
+.most_famous ul li:nth-child(2) p {
 
     font-family: Nuckle;
     font-size: 16px;
@@ -112,7 +116,7 @@
 
 }
 
-.best_seller ul li:nth-child(3) button {
+.most_famous ul li:nth-child(3) button {
     width: 100%;
     height: 50px;
     margin-top: 40px;

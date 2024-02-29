@@ -1,7 +1,10 @@
 @import "./header.css";
-@import "./card.css";
+@import "./slider.css";
 @import "./carousel.css";
-@import "./category.css";
+@import "./card.css";
 @import "./best_seller.css";
 @import "./carousel2.css";
+@import "./most_famous.css";
+@import "./brends.css";
+@import "./carousel3.css";
 @import "./footer.css";
