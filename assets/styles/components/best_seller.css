@@ -19,7 +19,7 @@
 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px,1fr) );
-    grid-template-rows: repeat(2, 390px);
+    
     grid-column-gap: 15px;
     grid-row-gap: 21px;
 
@@ -28,6 +28,7 @@
 }
 
 .best_seller ul li .cards .card {
+    height: 390px;
     border-radius: 10px;
     background-color: white;
     display: flex;

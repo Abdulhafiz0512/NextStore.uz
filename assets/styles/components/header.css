@@ -2,7 +2,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000;
+  z-index: 99;
   border-bottom: 1px solid silver;
   background-color: #fff;
 }
@@ -11,6 +11,8 @@ header .header-top {
   display: flex;
   justify-content: space-between;
   padding: 6px;
+  position: relative;
+  z-index: 12;
 }
 
 header .header-top a {
@@ -32,7 +34,9 @@ header .nav {
   align-items: center;
   width: 100%;
   gap: 230px;
-  height: 70px;
+  height: 90px;
+  position: relative;
+  z-index:999;
 }
 
 .menu{
@@ -48,7 +52,9 @@ header .nav {
 .mobile_menu{
   display: none;
 }
-
+#icon-menu{
+  transform: translateY(2px);
+}
 .mobile_menu img{
   width: 36px;
   height: 36px;
