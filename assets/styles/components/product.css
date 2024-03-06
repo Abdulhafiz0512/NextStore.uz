@@ -1,0 +1,212 @@
+.product {
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.product .idk{
+    margin-left: -190px;
+}
+.product .container {
+    display: flex;
+}
+
+.product .container .pictures {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+}
+
+.product .container .pictures .main_pic {
+    width: 546px;
+    height: 546px;
+
+    border-radius: 10px;
+    background-color: #fff;
+
+
+}
+
+.product .container .pictures .secondary_pic {
+    display: flex;
+    gap: 42px;
+}
+
+.product .container .info {
+    margin-left: 40px;
+}
+
+.product .container h6 {
+
+    font-family: Nuckle;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.product .container small {
+
+    font-family: Nuckle;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.product .container h4 {
+    font-family: Nuckle;
+    font-size: 48px;
+    font-weight: 591;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+margin-top: 40px;
+}
+
+.product .container h5 {
+    font-family: Nuckle;
+    font-size: 24px;
+    font-weight: 591;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-primary-blue);
+    margin-top: 12px;
+}
+
+.product .container p {
+
+    font-family: Nuckle;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-gray);
+}
+
+.product .container .color_info {
+    display: flex;
+    gap: 75px;
+    margin-top: 20px;
+}
+
+.product .container .colors{
+    margin-top: 17px;
+}
+.product .container .colors button {
+    width: 46px;
+    height: 46px;
+
+    border-radius: 4px;
+    border: 2px;
+
+}
+.product .container .colors button:hover{
+    border: 2px solid blue;
+    
+
+   
+}
+.product .container .colors button:nth-child(1) {
+    background-color: #BEBBC2;
+
+}
+
+.product .container .colors button:nth-child(2) {
+    background-color: #F9DED7;
+}
+
+.product .container .colors button:nth-child(3) {
+    background-color: #FCE9DB;
+}
+
+.product .container .colors button:nth-child(4) {
+    background-color: #E8E8EA;
+}
+
+.product .container .months {
+    display: flex;
+    margin-top: 20px;
+}
+
+.product .container .months .small_box button {
+    width: 100px;
+    height: 50px;
+    color: var(--bg-primary-blue);
+    border-radius: 8px;
+    border: 1px solid var(--bg-primary-blue);
+    background-color: white;
+
+}
+
+.product .container .months .big_box {
+    width: 208px;
+    height: 52px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product .container .months button {
+    margin-left: 20px;
+    width: 158px;
+    color: var(--bg-primary-blue);
+
+
+    border-radius: 10px;
+    border: 1px solid var(--bg-primary-blue);
+    gap: 10px;
+    background-color: white;
+}
+.product .container .buy{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    
+}
+.product .container .buy button {
+    width: 230px;
+    height: 52px;
+
+
+    border-radius: 10px;
+    gap: 10px;
+    background-color: var(--bg-primary-blue);
+    color: white;
+    outline: none;
+    border: none;
+}
+.product .container .dokon{
+    margin-top: 40px;
+}
+.product .container .delivery{
+    margin-top: 12px;
+}
+.product .container .change{
+    margin-top: 12px;
+}
+.product .container .dokon,.delivery,.change {
+    display: flex;
+    gap: 12px;
+    }
+
+.product .container .dokon img,.delivery img,.change img{
+    margin-right: 20px;
+}
+.cost{
+    color:  #2CB708;
+    
+}
+.product .container .change a{
+   
+
+}

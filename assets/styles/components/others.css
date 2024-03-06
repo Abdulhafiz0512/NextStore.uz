@@ -1,0 +1,122 @@
+.others {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 96px;
+    
+}
+
+.others .container {
+    background-color: #fff;
+    border-radius:10px ;
+    height: 574px;
+}
+
+.check {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.check input {
+    width: 18px;
+    height: 18px;
+    background-color: #6C757D;
+
+
+
+}
+
+.others .container ul {
+    margin-top: 20px;
+}
+
+.others .container ul li {
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.others .container ul li .info1 {
+
+    font-family: Nuckle;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 372px;
+    height: 34px;
+    margin-left: 20px;
+
+
+}
+
+.others .container ul li .info2 {
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 653;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 61px;
+
+}
+
+.others .container ul li .info3 {
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 12px;
+    width: 111px;
+
+
+}
+
+.others .container ul li .info4 {
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-left: 12px;
+    color: var(--bg-primary-blue);
+
+}
+
+.others .container ul li .info4:nth-child(2) {
+    color: #2CB708;
+
+}
+
+.others .container ul li .info4:nth-child(4) {
+    color: #2CB708;
+}
+
+.others .container ul li button {
+    width: 200.04px;
+    height: 40px;
+
+    border-radius: 10px;
+    background-color: var(--bg-white-blue);
+    margin-left: 175px;
+    border: none;
+}
+
+.others .container ul li button p {
+    color: var(--bg-primary-blue);
+}
+
+.line {
+    width: 1180px;
+    border: 1px solid #E4E7EE;
+}

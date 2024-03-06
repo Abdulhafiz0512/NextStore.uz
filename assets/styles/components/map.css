@@ -1,0 +1,33 @@
+.map {
+    width: 230px;
+    height: 493px;
+    background-color: white;
+margin-top: 12px;;
+
+}
+
+.map ul {
+    
+    list-style-type: none;
+
+
+}
+.map ul li{
+    margin-top: 15px;
+}
+
+.map a {
+    text-decoration: none;
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-darken);
+    
+    
+}
+.map a:hover{
+    color: var(--bg-primary-blue);
+} 

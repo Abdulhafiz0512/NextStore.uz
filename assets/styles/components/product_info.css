@@ -1,0 +1,87 @@
+.product_info .container{
+    background-color: #fff;
+    margin-top: 60px;
+    border-radius: 10px;
+    width: 1230px;
+}
+.product_info .container .blmd{
+    padding-top: 40px;
+}
+.product_info .container .zavod_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_info .container .zavod_info .zavod_list {
+    display: flex;
+    gap: 25px;
+    margin-top: 5px;
+
+
+}
+
+.product_info .container .zavod_info .zavod_list ul li {
+    display: flex;
+    margin-top: 14px;
+    
+}
+
+.product_info .container .zavod_info .zavod_list ul li .dot_line {
+    width: 258px;
+    
+    border-bottom: 1px solid #E4E7EE;
+    
+}
+
+.product_info .container p {
+
+    font-family: Nuckle;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-darken);
+
+}
+
+.product_info .container .zavod_info .zavod_title {
+
+    font-family: Nuckle;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--bg-darken);
+    margin-top: 20px;
+
+}
+
+.product_info .container .zavod_info .zavod_list ul li small {
+
+    font-family: Nuckle;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #6C757D;
+
+}
+.product_info .container .zavod_info .zavod_list ul li p{
+    
+font-family: Nuckle;
+font-size: 16px;
+font-weight: 653;
+line-height: 19px;
+letter-spacing: 0.02em;
+text-align: right;
+color: var(--bg-darken);
+}
+.product_info .container .space{
+    padding-bottom: 34px;;
+}
+.last_info{
+    margin-top: 60px;
+}

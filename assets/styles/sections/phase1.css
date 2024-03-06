@@ -1,3 +1,13 @@
 #phase1{
     margin-top: 60px;
+    display: flex;
+    
+}
+#phase1 .map_wrapper{
+    display: flex;
+    gap: 20px;
+}
+#phase1 .container{
+    
+    width: 80%;
 }
